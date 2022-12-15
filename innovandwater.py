@@ -1,5 +1,10 @@
 # LEGO type:standard slot:7 autostart
 
+"""
+πRATS 2022 - FLL TEAM # 34612 - SANTA BARBARA MIDDLE SCHOOL
+Solve hydro tower and place innovation in center of board
+"""
+
 # importing all the functions
 from spike import PrimeHub, LightMatrix, Button, StatusLight, ForceSensor, MotionSensor, Speaker, ColorSensor, App, DistanceSensor, Motor, MotorPair
 from spike.control import wait_for_seconds, wait_until, Timer

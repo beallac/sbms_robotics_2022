@@ -1,5 +1,10 @@
 # LEGO type:standard slot:8 autostart
 
+"""
+πRATS 2022 - FLL TEAM # 34612 - SANTA BARBARA MIDDLE SCHOOL
+Retrieve energy from energy storage
+"""
+
 # importing all the functions
 from spike import PrimeHub, LightMatrix, Button, StatusLight, ForceSensor, MotionSensor, Speaker, ColorSensor, App, DistanceSensor, Motor, MotorPair
 from spike.control import wait_for_seconds, wait_until, Timer
