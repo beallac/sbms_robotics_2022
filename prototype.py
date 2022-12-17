@@ -1,4 +1,4 @@
-# LEGO type:standard slot:10 autostart
+# LEGO type:standard slot:1 autostart
 
 """
 πRATS 2022 - FLL TEAM # 34612 - SANTA BARBARA MIDDLE SCHOOL
@@ -14,6 +14,17 @@ hub.light_matrix.show_image('ANGRY')
 belt = Motor('B')
 boxes = Motor('D')
 color_sensor = ColorSensor('F')
+
+dd = DistanceSensor('A')
+
+dd.light_up_all()
+while True:
+    dd.wait_for_distance_closer_than(18.0, unit='cm')
+    sensorDistance = dd.get_distance_cm()
+    print(sensorDistance)
+    hub.speaker.beep(100, 0.1)
+    break 
+
 belt.start(speed=-40)
 
 while True:
