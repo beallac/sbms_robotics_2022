@@ -14,5 +14,5 @@ Below is our robot that scores 285 points. The youtube video linked below shows 
 
 ![Image.png](assets/Image.png)
 
-[πrats 2022 - Super Powered](https://youtu.be/iIuyL_8K07Y)
+[πrats 2022 - Super Powered - Full robot run youtube video](https://youtu.be/iIuyL_8K07Y)
 
